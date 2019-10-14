@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', Cambria, serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #66BFBF;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #66BFBF;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #549191;
+}
+
+.main-header {
+  background: #EAF6F6 url('../img/mountain.png') bottom center no-repeat;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.main-header .container {
+    padding: 100px 0 280px;
+    background: url('../img/cloud.png') no-repeat;
+    background-position: 150px 50px;
+}
+
+.name {
+  font-family: 'Sacramento', Arial, sans-serif;
+  font-size: 72px;
+  line-height: 72px;
+  background: url('../img/cloud.png') no-repeat;
+  background-position: 550px 10px;
+}
+
+h2 {
+  font-family: 'Montserrat', Cambria, serif;
+  font-size: 24px;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+
+.main {
+  padding: 50px 0;
+}
+
+.main_image {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.description p {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.main_line {
+  display: inline-block;
+  margin: 50px 0;
+  border-top: 8px dotted;
+  width: 36px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.skills img {
+  border-radius: 50%;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+li {
+  padding: 10px 0;
+}
+
+.button {
+  margin-top: 50px;
+	background-color: #66bfbf;
+  border: none;
+	border-radius: 8px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 13px 32px;
+	text-decoration: none;
+  font-family: 'Montserrat', Cambria, serif;
+  text-transform: uppercase;
+}
+
+.button:hover {
+	background-color:#549191;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.main-footer {
+  padding: 50px;
+  background-color: #66BFBF;
+  color: white;
+  text-align: right;
+}
